@@ -1,0 +1,90 @@
+
+.logcontainer{
+	/* margin-top: 10px; */
+	background-image: url('../image/laptop.jpg');
+
+		position: relative;
+	top: 60px;
+	width: 100%;
+	height: 100vh;
+	background-size: cover ;
+	background-repeat: no-repeat;
+} 
+
+.login-form label {
+	font-size: 17px;
+	color: #fff;
+	font-weight: 500;
+}
+.login-form {
+	position: relative;
+	margin-top: 100px;
+	padding: 57px 24px;
+	border-radius: 10px;
+	box-shadow: 2px 5px 10px 5px #00000047;
+background-color: rgba(0, 0, 0, 0.6); 
+	margin-top: 10%;
+	animation-duration: 4s;
+	
+}
+.text-muted {
+	color: #fff!important;
+}
+.login-form h2 {
+	position: relative;
+	top: -10px;
+}
+.form-control1{
+	display: block;
+	width: 100%;
+	
+} 
+ input{
+	position: relative;
+	background:transparent;
+	outline: none;
+	border: none;width: 100%;
+	color: #fff;
+	padding-bottom: 10px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	font-weight: 300;
+	border-bottom: 2px solid rgba(255, 255, 255, 0.5) ;
+  resize: none
+}
+.fa-envelope-o,
+.fa-key
+{
+	font-size: 20px;
+	font-weight: 200;
+	color:#DF3A02; 
+} 
+.btn-block{
+	color: #fff;
+	background-color: #DF3A02;
+	padding: 7px 38px;
+	font-size: 20px;
+	border-radius: 50px;
+}
+button:hover{
+background:linear-gradient(#DF3A02,#F79C90, #D83A02);
+}
+button:focus{
+	color: #DF3A02;
+	background:#FFCD42; 
+   letter-spacing: 15px;
+	font-size: 22px;
+	font-weight: bold;
+}
+.login-circle {
+	position: relative;
+	top: 60px;
+	  color:  #DF3A02;
+}
+
+
+
+
+
+
+

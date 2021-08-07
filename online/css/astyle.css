@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.logcontainer{
+    background-image: url('../image/pic1.jpg');
+     position: relative;
+  
+    width: 100%;
+    height: 100vh;
+ height: 700px;
+    background-size: cover ;
+    background-repeat: no-repeat;
+} 
+.adminlogin{
+    position: relative;
+    width: 320px;
+    height: 400px;
+    background:#000;
+    color:#fff;
+    top:50% ;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.adminlogin h1{
+    margin-bottom:30px;
+    padding: 0 0 0px;
+    text-align: center;
+    font-size: 22px;
+    border-bottom: 2px solid #FB2525;
+    position: relative;
+    position: absolute;
+    top:60px;
+    left: 90px;
+     
+}
+.margin{
+    margin-top: 60px;
+}
+
+.adminlogin p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.adminlogin .admininput
+{
+     margin-bottom: 24px;
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid #fff;
+    background:transparent;
+    outline:none;
+    height:40px;
+    color:#fff;
+    font-size:16px;
+}
+.adminlogin .button{
+    margin-top: 15px;
+    border:none;
+    outline:none;
+    width:100%;
+    height:40px;
+    background:#FB2525;
+    color:#fff;
+    font-size:18px;
+    border-radius:50px;
+}
+.adminlogin .button:hover{
+background: linear-gradient(#DF3A02,#F79C90, #D83A02);
+ transform: scaleX(1);
+    transform: skewX(15deg);
+}
+
+.adminlogin .button:focus
+{
+    cursor:pointer;
+    background:#F73F00;
+    color:#fff;
+    box-shadow: 0 0 15px #F73F00,0 0 40px #F73F00,
+    0 0 70px #F73F00;
+    border:0.5px solid white; 
+}
+
+
+
+
+
+
+
+
+
+
